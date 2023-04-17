@@ -1,0 +1,122 @@
+h2{
+    font-size: 16px;
+}
+.main{
+    width: 1200px;
+    margin: 0 auto;
+    height: 1750px;
+    margin-top: 30px;
+}
+.main>.important{
+    width: 100%;
+    height: 380px;
+}
+.main>.important>div>.important_left{
+    width: 450px;
+    height: 300px;
+    float: left;
+}
+.main>.important>div>.important_left>a>img{
+    width: 100%;
+    height: 100%;
+}
+.main>.important>div>.important_right{
+    width: 700px;
+    height: 300px;
+    float: right;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+.main>.important>div>.important_right>p{
+    text-indent: 1cm;
+}
+.main>.represent{
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+}
+.main>.represent>.img_list{
+    width: 1100px;
+    height: 300px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+.main>.represent>.img_list>ul{
+    position: absolute;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: space-between;
+}
+.main>.represent>.img_list>ul>li{
+    float: left;
+    width: 200px;
+    height: 250px;
+}
+.main>.represent>.img_list>ul>li>a>img{
+    width: 100%;
+    height: 100%;
+    transition: all 0.3s;
+
+}
+.main>.represent>.img_list>ul>li>a>img:hover{
+    transform: scale(1.02);
+}
+.main>.represent>.img_list>ul>li>span{
+    float: left;
+    margin-top: 10px;
+    font-size: 15px;
+}
+.main>.represent>.left{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 40px;
+    height: 40px;
+    background-image: url(../img/left1.png);
+    background-position :2px center;
+    background-size:40px auto;
+    background-repeat:no-repeat;
+}
+.main>.represent>.right{
+    position: absolute;
+    right: 0;
+    top: 50%;
+    width: 40px;
+    height: 40px;
+    background-image: url(../img/right1.png);
+    background-position :2px center;
+    background-size:40px auto;
+    background-repeat:no-repeat;
+}
+.main>.research>.research_list{
+    width: 100%;
+    height: 720px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.main>.research>.research_list>div>img{
+    width: 300px;
+    height: 200px;
+}
+.main>.research>.research_list>div{
+    width: 590px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around
+}
+.main>.research>.research_list>div>h2{
+    width: 280px;
+}
+.main>.research>.research_list>div>p{
+    width: 280px;
+    text-indent: 1cm;
+}
+.main>.research>.research_list>div>p>span{
+    color: red;
+}

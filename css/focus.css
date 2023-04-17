@@ -1,0 +1,125 @@
+.main{
+    width: 1200px;
+    margin: 0 auto;
+    height: 2280px;
+    margin-top: 56px;
+}
+.main>.meeting{
+    width: 100%;
+    height: 420px;
+    display: flex;
+    justify-content: space-between;
+}
+.main>.meeting>.meeting_left{
+    width: 31%;
+    height: 100%;
+}
+.main>.meeting>.meeting_right{
+    width: 31%;
+    height: 100%;
+}
+.main>.meeting>.meeting_middle{
+    width: 31%;
+}
+li.active{
+    font-weight:bolder;
+}
+.list li{
+    list-style: disc;
+    line-height: 32px;
+    list-style-position: inside;
+}
+
+.main>.interview{
+    width: 100%;
+    height: 520px;
+}
+.main>.interview>.interview_left{
+    width: 48%;
+    height: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    float: left;
+    justify-content: space-between;
+}
+.main>.interview>.interview_left>div{
+    width: 278px;
+    text-align: center;
+}
+.main>.interview>.interview_left>div>img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.main>.interview>.interview_right{
+    width: 48%;
+    height: 450px;
+    float: right;
+    line-height: 40px;
+}
+.main>.interview>.interview_right>h1:last-of-type{
+    margin-top: 20px;
+}
+.main>.person{
+    width: 100%;
+    height: 520px;
+}
+.main>.person>.person_list{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.main>.person>.person_list>div{
+    width: 48%;
+    height: 220px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main>.person>.person_list>div>.img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    background-size: contain;
+    overflow: hidden;
+}
+.main>.person>.person_list>div>.img>img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    transition: all 0.3s;
+}
+.main>.person>.person_list>div>.img>img:hover{
+    transform: scale(1.2);
+}
+.main>.person>.person_list>div>div:last-of-type{
+    width: 350px;
+}
+.main>.person>.person_list>div>div>p{
+    text-indent: 1cm;
+}
+.main>.person>.person_list>div>div>p>span{
+    color: red;
+}
+.main>.live{
+    width: 100%;
+    height: 700px;
+}
+.main>.live>.live_list{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.main>.live>.live_list>div{
+    width: 380px;
+    height: 280px;
+}
+.main>.live>.live_list>div>img{
+    width: 100%;
+    height: 220px;
+    margin-bottom: 10px;
+}

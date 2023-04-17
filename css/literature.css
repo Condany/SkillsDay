@@ -1,0 +1,101 @@
+.main{
+    width: 1200px;
+    margin: 0 auto;
+    height: 1200px;
+    margin-top: 30px;
+}
+.main>.literature{
+    width: 100%;
+    height: 90%;
+    margin-top: 20px;
+}
+.main>.literature>.literature_left{
+    float: left;
+    width: 300px;
+    border: 1px solid #eceaea;
+}
+.main>.literature>.literature_left>span{
+    width: 280px;
+    height: 53px;
+    display: block;
+    line-height: 53px;
+    color: #fff;
+    background-color: red;
+    font-size: 15px;
+    padding-left: 20px;
+    border-bottom: 1px solid #fff;
+}
+.main>.literature>.literature_left>ul{
+    display: none;
+    width: 100%;
+}
+.main>.literature>.literature_left>ul>li{
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-bottom:1px solid #eceaea;
+}
+.main>.literature>.literature_left>ul>li.active{
+    background-color: #eceaea;
+}
+.main>.literature>.literature_right{
+    float: right;
+    width: 850px;   
+}
+.main>.literature>.literature_right>.right_top{
+    display: flex;
+    justify-content: space-between
+}
+.main>.literature>.literature_right>.right_top>div:first-of-type{
+    background: url(../img/ONE.jpg) center no-repeat;
+    background-size: cover;
+    width: 400px;
+    height: 250px;
+    display: flex;
+    align-items: flex-end
+}
+.main>.literature>.literature_right>.right_top>div>span{
+    width: 400px;
+    height: 40px;
+    background-color: rgba(0,0,0,.3);
+    color: #fff;
+    padding-left: 20px;
+    line-height: 40px;
+}
+
+.main>.literature>.literature_right>.right_top>.top_right{
+    float: right;
+    width: 400px;
+    line-height: 32px;
+}
+.main>.literature>.literature_right>.right_top>.top_right>h2{
+    color: red;
+}
+.main>.literature>.literature_right>.right_top>.top_right>p{
+    text-indent: 1cm;
+}
+.main>.literature>.literature_right>.file{
+    width: 100%;
+    height: 820px;
+}
+.main>.literature>.literature_right>.file>.file_list{
+    width: 100%;
+    height: 730px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.main>.literature>.literature_right>.file>.file_list>div{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main>.literature>.literature_right>.file>.file_list>div>img{
+    width: 100px;
+    height: 150px;
+}
+.main>.literature>.literature_right>.file>.file_list>div>p{
+    width: 280px;
+}
